@@ -1,10 +1,19 @@
-from flask import Flask
+# from flask import Flask
+
+# How to render in HTML Page
+
+from operator import index
+from flask import Flask , render_template
+
 
 app = Flask(__name__)
 
 @app.route('/')
+# def hello_world():
+#     return 'Hii Abhinav'
+# HTML render stuff doing Here
 def hello_world():
-    return 'Hii Abhinav'
+    return render_template('index.html')
 
 @app.route('/products')
 def products():
