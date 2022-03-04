@@ -1,0 +1,2 @@
+type this is the url
+This is the given URL to access the image :- http://127.0.0.1:5000/static/flask1.png
